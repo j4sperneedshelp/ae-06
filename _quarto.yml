@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Website Title I Like :)"
+  navbar:
+    background: primary
+    search: true
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - text: "Assignments"
+        menu:
+          - ae03-gerrymander.qmd
+    right:
+      - icon: github
+        href: https://github.com/j4sperneedshelp
+
+format:
+  html:
+    theme:
+      - sketchy
+      - brand
+    css: styles.css
+    toc: true
+
+
+
